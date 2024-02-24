@@ -51,7 +51,7 @@ function AplikasiLava() {
  
   return (
     <div className="p-5 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold text-center mb-4">Web3 Info</h1>
+      <h1 className="text-2xl font-bold text-center mb-4">Aplikasi Req RPC Lava</h1>
       {error && <p className="text-red-500">{error}</p>}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InfoBox label="Balance (ETH)" value={data.balance} />
