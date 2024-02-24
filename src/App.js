@@ -4,7 +4,7 @@ import { Web3 } from 'web3'; // Make sure this import matches your package's exp
 // Initialize Web3 instance with an RPC endpoint
 const web3 = new Web3(process.env.REACT_APP_RPC_URL);
 
-function Web3Info() {
+function AplikasiLava() {
   const [data, setData] = useState({
     balance: null,
     blockNumber: null,
@@ -70,4 +70,4 @@ const InfoBox = ({ label, value }) => (
   </div>
 );
 
-export default Web3Info;
+export default AplikasiLava;
